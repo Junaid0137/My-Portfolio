@@ -1,11 +1,9 @@
 'use client';
 import About from "@/components/About";
-import { AnimatedPinDemo } from "@/components/AnimatedPinDemo";
 import Contact from "@/components/Contact";
 import { ExpandableCardDemo } from "@/components/ExpandableCardDemo";
 import { FloatingDockDemo } from "@/components/FloatingDockDemo";
 import Header from "@/components/Header";
-import { MacbookScrollDemo } from "@/components/MacbookScrollDemo";
 import Pro from "@/components/Pro";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
