@@ -210,14 +210,14 @@ const cards = [
         },
     },
 ];
-function setTitle(nms, des, imgs, liks) {
+function setTitle(nms: any, des: any, imgs: any, liks: any) {
     cards[0].title = nms;
     cards[0].description = des;
     cards[0].src = imgs;
     cards[0].ctaLink = liks;
 }
 
-function setContent(index, newContent) {
+function setContent(index: any, newContent: any) {
     if (index >= 0 && index < cards.length) {
         cards[index].content = newContent;
     }
