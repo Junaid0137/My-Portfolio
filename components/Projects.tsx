@@ -123,7 +123,7 @@ function Projects() {
                             transition={{ duration: 1.2 }}
                             viewport={{ once: true }}
                         >
-                            <ExpandableCardDemo img={proj.img} name={proj.name} des={proj.des} cnts={proj.cnts} />
+                            <ExpandableCardDemo imgs={proj.img} nms={proj.name} des={proj.des} liks={proj.link} cnts={proj.cnts} />
                         </motion.div>
                         <div className='space-y-5 max-w-6xl px-0 md:px-10'>
                             <h4 className='font-semibold text-4xl text-center'>{proj.name}</h4>
