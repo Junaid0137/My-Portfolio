@@ -3,6 +3,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 type Props = {
     directionLeft?: boolean,
+    image: string,
 }
 function Skill({ directionLeft, image }: Props) {
     return (
