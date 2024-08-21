@@ -4,7 +4,7 @@ import React, { act, useEffect, useId, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useOutsideClick } from "@/hooks/use-outside-click";
 
-export function ExpandableCardDemo({ nms, des, imgs, liks, cnts }) {
+export function ExpandableCardDemo({ nms, des, imgs, liks, cnts }: { nms: any, des: any, imgs: any, liks: any, cnts: any }) {
     setTitle(nms, des, imgs, liks);
     setContent(0, cnts);
     const [active, setActive] = useState<(typeof cards)[number] | boolean | null>(
