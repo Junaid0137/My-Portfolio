@@ -4,8 +4,8 @@ import React, { act, useEffect, useId, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useOutsideClick } from "@/hooks/use-outside-click";
 
-export function ExpandableCardDemo({ name, des, img, link, cnts }) {
-    setTitle(name, des, img, link);
+export function ExpandableCardDemo({ nms, des, imgs, liks, cnts }) {
+    setTitle(nms, des, imgs, liks);
     setContent(0, cnts);
     const [active, setActive] = useState<(typeof cards)[number] | boolean | null>(
         null
@@ -210,11 +210,11 @@ const cards = [
         },
     },
 ];
-function setTitle(newTitle, des, img, link) {
-    cards[0].title = newTitle;
+function setTitle(nms, des, imgs, liks) {
+    cards[0].title = nms;
     cards[0].description = des;
-    cards[0].src = img;
-    cards[0].ctaLink = link;
+    cards[0].src = imgs;
+    cards[0].ctaLink = liks;
 }
 
 function setContent(index, newContent) {
