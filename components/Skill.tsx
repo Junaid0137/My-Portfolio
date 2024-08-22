@@ -9,8 +9,8 @@ function Skill({ directionLeft, image }: Props) {
     return (
         <div className='group relative flex cursor-pointer'>
             <motion.div className='group relative flex'
-                initial={{ x: directionLeft ? -200 : 200, opacity: 0 }}
-                animate={{ x: 0, opacity: 1 }}
+                initial={{ x: directionLeft ? -50 : 50, opacity: 0 }}
+                whileInView={{ x: 0, opacity: 1 }}
                 transition={{ duration: 2 }}
             >
                 <img

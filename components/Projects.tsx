@@ -118,8 +118,8 @@ function Projects() {
                             src='https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg' alt=''
                         /> */}
                         <motion.div
-                            initial={{ y: -300, opacity: 0 }}
-                            animate={{ y: 0, opacity: 1 }}
+                            initial={{ y: -100, opacity: 0 }}
+                            whileInView={{ y: 0, opacity: 1 }}
                             transition={{ duration: 1.2 }}
                             viewport={{ once: true }}
                         >

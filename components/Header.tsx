@@ -42,7 +42,7 @@ function Header() {
                     <SocialIcon
                         className='cursor-pointer'
                         network='email'
-                        bgColor='transparent'
+                        bgColor='#262626'
                         fgColor='gray'
                     />
                     <p className='uppercase hidden md:inline-flex text-gray-600'>Get in touch</p>

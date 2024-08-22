@@ -9,7 +9,7 @@ function Pro() {
     const [text, count] = useTypewriter({
         words: [
             "<Hi, I am Syed Ameer Junaid/>",
-            "<Passonate FrontEnd Developer/>",
+            "<Passionate FrontEnd Developer/>",
             "<Love Coding/>",
         ],
         loop: true,
