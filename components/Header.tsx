@@ -38,11 +38,11 @@ function Header() {
                     duration: 1.5,
                 }}
                 className='flex items-center pr-5'>
-                <Link href={'#contact'}>
+                <Link href={'#contact'} className='-mt-1'>
                     <SocialIcon
-                        className='cursor-pointer'
+                        className='cursor-pointer mb-5'
                         network='email'
-                        bgColor='#262626'
+                        bgColor='transparent'
                         fgColor='gray'
                     />
                     <p className='uppercase hidden md:inline-flex text-gray-600'>Get in touch</p>
