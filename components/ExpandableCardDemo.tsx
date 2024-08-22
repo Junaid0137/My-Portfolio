@@ -4,8 +4,8 @@ import React, { act, useEffect, useId, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useOutsideClick } from "@/hooks/use-outside-click";
 
-export function ExpandableCardDemo({ name, des, img, link, cnts }) {
-    setTitle(name, des, img, link);
+export function ExpandableCardDemo({ nms, des, imgs, liks, cnts }: { nms: any, des: any, imgs: any, liks: any, cnts: any }) {
+    setTitle(nms, des, imgs, liks);
     setContent(0, cnts);
     const [active, setActive] = useState<(typeof cards)[number] | boolean | null>(
         null
@@ -141,7 +141,7 @@ export function ExpandableCardDemo({ name, des, img, link, cnts }) {
                                     height={100}
                                     src={card.src}
                                     alt={card.title}
-                                    className="h-45 w-50 rounded-lg object-cover object-top"
+                                    className="h-35 w-45 md:h-45 md:w-50 rounded-lg object-cover object-top"
                                 />
                             </motion.div>
                         </div>
@@ -210,14 +210,14 @@ const cards = [
         },
     },
 ];
-function setTitle(newTitle, des, img, link) {
-    cards[0].title = newTitle;
+function setTitle(nms: any, des: any, imgs: any, liks: any) {
+    cards[0].title = nms;
     cards[0].description = des;
-    cards[0].src = img;
-    cards[0].ctaLink = link;
+    cards[0].src = imgs;
+    cards[0].ctaLink = liks;
 }
 
-function setContent(index, newContent) {
+function setContent(index: any, newContent: any) {
     if (index >= 0 && index < cards.length) {
         cards[index].content = newContent;
     }

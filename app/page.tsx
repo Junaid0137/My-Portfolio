@@ -13,6 +13,9 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="bg-[#323437] h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#B3BAFF] z-0">
+      <header>
+        <title>Junaid</title>
+      </header>
       <Header />
       <section id="pro" className="snap-start">
         <Pro />

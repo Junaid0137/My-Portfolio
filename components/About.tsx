@@ -12,7 +12,7 @@ function About() {
             <motion.img
                 initial={{
                     opacity: 0,
-                    x: -200
+                    x: -100
                 }}
                 whileInView={{ x: 0, opacity: 1, }}
                 transition={{ duration: 1.2 }}
