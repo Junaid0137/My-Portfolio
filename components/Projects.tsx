@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import { motion } from 'framer-motion'
-import { AnimatedPinDemo } from './AnimatedPinDemo'
 import { ExpandableCardDemo } from './ExpandableCardDemo'
 function Projects() {
     const project = [

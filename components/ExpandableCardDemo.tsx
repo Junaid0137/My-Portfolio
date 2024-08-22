@@ -100,13 +100,13 @@ export function ExpandableCardDemo({ nms, des, imgs, liks, cnts }: { nms: any, d
                                         </motion.p>
                                     </div>
 
-                                    <motion.button
+                                    <motion.a
                                         layoutId={`button-${active.title}-${id}`}
-                                        href={() => (window.location.href = 'https://www.google.com')}
+                                        href={active.ctaLink}
                                         className="px-4 py-3 text-sm rounded-full font-bold bg-green-500 text-white"
                                     >
                                         {active.ctaText}
-                                    </motion.button>
+                                    </motion.a>
                                 </div>
                                 <div className="pt-4 relative px-4">
                                     <motion.div
