@@ -3,6 +3,7 @@ import { FloatingDock } from "@/components/ui/floating-dock";
 import {
     IconBrandAdobe,
     IconBrandGithub,
+    IconBrandInstagram,
     IconBrandLeetcode,
     IconBrandLinkedin,
     IconBrandX,
@@ -40,22 +41,21 @@ export function FloatingDockDemo() {
             href: "https://leetcode.com/u/Junaid_137/",
         },
         {
-            title: "twitter",
+            title: "Twitter",
             icon: (
                 <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
-            href: "#",
+            href: "https://x.com/SyedJun46622680",
         },
-
         {
-            title: "Youtube",
+            title: "Instagram",
             icon: (
-                <IconBrandYoutube className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+                <IconBrandInstagram className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
-            href: "www.x.com",
+            href: "https://www.instagram.com/junaid_0825/",
         },
         {
-            title: "GitHub",
+            title: "Menu",
             icon: (
                 <IconMenu className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),

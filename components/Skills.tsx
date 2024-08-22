@@ -23,6 +23,7 @@ function Skills() {
                 <Skill image='https://logowik.com/content/uploads/images/vercel1868.jpg' directionLeft={true} />
                 <Skill image='https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_git-512.png' directionLeft={true} />
                 <Skill image='https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-18-1024.png' directionLeft={false} />
+                <Skill image='https://images-cdn.openxcell.com/wp-content/uploads/2024/07/25082439/reactnative-inner.svg' directionLeft={false} />
             </div>
         </motion.div>
     )

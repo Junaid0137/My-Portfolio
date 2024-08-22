@@ -40,7 +40,7 @@ function Header() {
                 className='flex items-center pr-5'>
                 <Link href={'#contact'} className='-mt-1'>
                     <SocialIcon
-                        className='cursor-pointer mb-5'
+                        className='cursor-pointer mb-5 md:mb-0'
                         network='email'
                         bgColor='transparent'
                         fgColor='gray'
