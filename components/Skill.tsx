@@ -15,7 +15,7 @@ function Skill({ directionLeft, image }: Props) {
             >
                 <img
                     src={image} alt=''
-                    className='border border-gray-500 p-2 rounded-full h-14 w-14 xl:w-24 xl:h-24 object-cover '
+                    className='border border-gray-500 p-2 rounded-full h-16 w-16 xl:w-24 xl:h-24 object-cover '
                 />
                 <div className='absolute opacity-0 rounded-full group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-14 w-14 xl:h-24 xl:w-24'>
                     <div className='flex items-center text-center justify-center h-full'>
