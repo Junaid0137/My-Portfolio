@@ -119,7 +119,7 @@ function Projects() {
                         /> */}
                         <motion.div
                             initial={{ y: -300, opacity: 0 }}
-                            whileInView={{ y: 0, opacity: 1 }}
+                            animate={{ y: 0, opacity: 1 }}
                             transition={{ duration: 1.2 }}
                             viewport={{ once: true }}
                         >

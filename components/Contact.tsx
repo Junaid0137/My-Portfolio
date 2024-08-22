@@ -34,7 +34,7 @@ function Contact() {
                     <MapPinIcon className='h-7 w-7 text-[#B3BAFF]' />
                     <p>Hyderabad</p>
                 </div>
-                <div className='max-w-md md:max-w-full'>
+                <div className='max-w-sm md:max-w-full'>
                     <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col space-y-2'>
                         <div className='flex space-x-2'>
                             <input {...register('name')} placeholder='Name' className='outline-none px-6 py-4 w-1/2 border-b bg-gray-500 rounded-md border-[#242424] transition-all focus:border-[#B3BAFF] focus:text-[#B3BAFF] placeholder-slate-400 hover:border-[#B3BAFF]' type='text' />

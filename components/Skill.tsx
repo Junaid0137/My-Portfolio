@@ -7,17 +7,17 @@ type Props = {
 }
 function Skill({ directionLeft, image }: Props) {
     return (
-        <div className='group relative flex'>
+        <div className='group relative flex cursor-pointer'>
             <motion.div className='group relative flex'
                 initial={{ x: directionLeft ? -200 : 200, opacity: 0 }}
-                whileInView={{ x: 0, opacity: 1 }}
+                animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 2 }}
             >
                 <img
                     src={image} alt=''
-                    className='border border-gray-500 p-2 rounded-full h-14 w-14 md:h-24 md:w-24 object-cover '
+                    className='border border-gray-500 p-2 rounded-full h-14 w-14 xl:w-24 xl:h-24 object-cover '
                 />
-                <div className='absolute opacity-0 rounded-full group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-14 w-14 md:h-24 md:w-24'>
+                <div className='absolute opacity-0 rounded-full group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-14 w-14 xl:h-24 xl:w-24'>
                     <div className='flex items-center text-center justify-center h-full'>
                         <p className='font-bold text-2xl opacity-100 text-black'></p>
                     </div>

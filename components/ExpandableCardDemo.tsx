@@ -141,7 +141,7 @@ export function ExpandableCardDemo({ nms, des, imgs, liks, cnts }: { nms: any, d
                                     height={100}
                                     src={card.src}
                                     alt={card.title}
-                                    className="h-35 w-45 md:h-45 md:w-50 rounded-lg object-cover object-top"
+                                    className="h-25 w-35 md:h-45 md:w-50 rounded-lg object-cover object-top"
                                 />
                             </motion.div>
                         </div>

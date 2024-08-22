@@ -7,7 +7,7 @@ function Skills() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1.2 }}
-            className='h-screen flex flex-col relative text-center md:text-left md:flex-row max-w-[2000px] xl:px-10 justify-evenly mx-auto items-center '>
+            className='flex flex-col relative text-center md:text-left md:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center mx-auto items-center '>
             <h4 className='absolute top-24 uppercase tracking-[20px] text-2xl text-gray-500'>Skills</h4>
             <div className='grid grid-cols-4 gap-5'>
                 <Skill image='https://cdn0.iconfinder.com/data/icons/logos-brands-in-colors/128/react_color-1024.png' directionLeft={true} />
