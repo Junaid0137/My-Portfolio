@@ -1,5 +1,6 @@
 'use client';
 import About from "@/components/About";
+import About2 from "@/components/About2";
 import Contact from "@/components/Contact";
 import { ExpandableCardDemo } from "@/components/ExpandableCardDemo";
 import { FloatingDockDemo } from "@/components/FloatingDockDemo";

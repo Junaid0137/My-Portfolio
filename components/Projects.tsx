@@ -25,27 +25,27 @@ function Projects() {
             },
         },
         {
-            name: 'Amazon-clone',
-            img: 'https://static.wixstatic.com/media/5715ab_7b5593095b64499d97091fe3256beadd~mv2.png',
-            des: 'ReactJs | WebHooks | FireStore | API | NextJs | NextAuth',
-            link: 'https://disneyhotstar-clone.vercel.app/',
+            name: 'Food Delivary App',
+            img: 'https://static.wixstatic.com/media/5715ab_2c57a6af481146879d5c67867e2aa242~mv2.png',
+            des: 'ReactNative | TypeScript | Tailwind | Redux',
+            link: 'https://github.com/Junaid0137/Food-Delivery-App',
             cnts: () => {
                 return (
                     <p>
-                        This project is a fully functional Amazon clone built using Next.js, NextAuth.js, Tailwind CSS, and Firebase Cloud Firestore. It offers a seamless user experience, including:
+                        This is a sleek React Native Food Delivery app designed with a focus on user experience and performance.
                         <br></br>
                         <br></br>
-                        Key Features:
+                        Key features include:
                         <br></br>
-                        - Robust authentication with NextAuth.js
+                        - Sleek Design
                         <br></br>
-                        - User-friendly shopping cart functionality
+                        - Seamless Navigation:
                         <br></br>
-                        - Cloud Firestore for secure order storage
+                        - Dynamic Content
                         <br></br>
-                        - Responsive design powered by Tailwind CSS
+                        - Robust State Management using Redux
                         <br></br>
-                        - Seamless integration with Firebase services
+                        - Animated Checkout
                     </p>
                 );
             },
@@ -54,7 +54,7 @@ function Projects() {
             name: 'Uber-clone',
             img: 'https://static.wixstatic.com/media/5715ab_14571ce4974045debb1567228a3a053e~mv2.png',
             des: 'ReactNative | Redux | Google API | ReactNative Navigation',
-            link: 'https://disneyhotstar-clone.vercel.app/',
+            link: 'https://github.com/Junaid0137/ReactNative-UberClone',
             cnts: () => {
                 return (
                     <p>
@@ -73,27 +73,75 @@ function Projects() {
             },
         },
         {
-            name: 'Food Delivary App',
-            img: 'https://static.wixstatic.com/media/5715ab_859bcde614934cd7bd7e396b018a0e0c~mv2.png',
-            des: 'ReactNative | TypeScript | Tailwind | Redux',
-            link: 'https://disneyhotstar-clone.vercel.app/',
+            name: 'News App',
+            img: 'https://static.wixstatic.com/media/5715ab_1fb8b86c3108434bb44c56b9233135f5~mv2.png',
+            des: 'NextJs | TypeScript | Tailwind | GNews API',
+            link: 'https://acowale-test.vercel.app/',
             cnts: () => {
                 return (
                     <p>
-                        This is a sleek React Native Food Delivery app designed with a focus on user experience and performance.
+                        I developed a news aggregation website using Next.js, Tailwind CSS, TypeScript, and the GNews API.
                         <br></br>
                         <br></br>
-                        Key features include:
+                        The site features a responsive design, category filtering, and a search functionality that allows users to find specific news articles quickly.
                         <br></br>
-                        - Sleek Design
                         <br></br>
-                        - Seamless Navigation:
+                        It dynamically fetches the latest headlines in various categories, ensuring seamless performance and a clean, user-friendly interface.
                         <br></br>
-                        - Dynamic Content
                         <br></br>
-                        - Robust State Management using Redux
+                        Tailwind CSS was used for styling, while Next.js powers the routing and server-side rendering for optimal performance.
                         <br></br>
-                        - Animated Checkout
+                        <br></br>
+                    </p>
+                );
+            },
+        },
+        {
+            name: 'Collaborative Notes',
+            img: 'https://static.wixstatic.com/media/5715ab_c265b334f92d4949bb726148dfa52013~mv2.png',
+            des: 'NextJs | TypeScript | LiveBlocks | Tailwind | ShadCn | CloudFlare | OpenAI | Clerk',
+            link: 'https://collaborative-notes.vercel.app/',
+            cnts: () => {
+                return (
+                    <p>
+                        I Developed Collaborative Notes App, a real-time collaboration platform featuring live cursors and rich text editing using Liveblocks.
+                        <br></br>
+                        <br></br>
+                        The app integrates Next.js server and client components, Cloudflare AI Models for chat-to-document translation, and Firebase Firestore for document storage.
+                        <br></br>
+                        <br></br>
+                        Clerk ensures seamless authentication, while ShadCN and Tailwind CSS power the sleek, user-friendly UI.
+                        <br></br>
+                        <br></br>
+                        Built with TypeScript for robust error handling, the app includes elegant dialog prompts and toast notifications, and is deployed via Vercel.
+                        <br></br>
+                        <br></br>
+                    </p>
+                );
+            },
+        },
+        {
+            name: 'Amazon-clone',
+            img: 'https://static.wixstatic.com/media/5715ab_7b5593095b64499d97091fe3256beadd~mv2.png',
+            des: 'ReactJs | WebHooks | FireStore | API | NextJs | NextAuth',
+            link: 'https://amazon-clone-ashen-ten.vercel.app/',
+            cnts: () => {
+                return (
+                    <p>
+                        This project is a fully functional Amazon clone built using Next.js, NextAuth.js, Tailwind CSS, and Firebase Cloud Firestore. It offers a seamless user experience, including:
+                        <br></br>
+                        <br></br>
+                        Key Features:
+                        <br></br>
+                        - Robust authentication with NextAuth.js
+                        <br></br>
+                        - User-friendly shopping cart functionality
+                        <br></br>
+                        - Cloud Firestore for secure order storage
+                        <br></br>
+                        - Responsive design powered by Tailwind CSS
+                        <br></br>
+                        - Seamless integration with Firebase services
                     </p>
                 );
             },
@@ -126,8 +174,8 @@ function Projects() {
                             <ExpandableCardDemo imgs={proj.img} nms={proj.name} des={proj.des} liks={proj.link} cnts={proj.cnts} />
                         </motion.div>
                         <div className='space-y-5 max-w-6xl px-0 md:px-10'>
-                            <h4 className='font-semibold text-4xl text-center'>{proj.name}</h4>
-                            <p className='text-md text-center'>{proj.des}</p>
+                            <h4 className='font-semibold text-xl md:text-4xl text-center'>{proj.name}</h4>
+                            <p className='text-sm md:text-md text-center'>{proj.des}</p>
                         </div>
                     </div>
                 ))}

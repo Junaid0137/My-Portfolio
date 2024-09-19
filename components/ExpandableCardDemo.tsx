@@ -132,17 +132,19 @@ export function ExpandableCardDemo({ nms, des, imgs, liks, cnts }: { nms: any, d
                         layoutId={`card-${card.title}-${id}`}
                         key={`card-${card.title}-${id}`}
                         onClick={() => setActive(card)}
-                        className="p-0 flex flex-col justify-between items-center shadow-[0_8px_16px_rgb(0_0_0/0.4)] bg-transparent  rounded-xl cursor-pointer"
+                        className="p-0 flex flex-col justify-between mx-auto items-center shadow-[0_8px_16px_rgb(0_0_0/0.4)] bg-transparent  rounded-xl cursor-pointer"
                     >
-                        <div className="flex gap-4 flex-col  ">
+                        <div className="flex gap-4 flex-col">
                             <motion.div layoutId={`image-${card.title}-${id}`}>
-                                <Image
-                                    width={500}
-                                    height={100}
-                                    src={card.src}
-                                    alt={card.title}
-                                    className="h-25 w-35 md:h-45 md:w-50 rounded-lg object-cover object-top"
-                                />
+                                <div className="flex flex-row mr-30">
+                                    <Image
+                                        width={500}
+                                        height={100}
+                                        src={card.src}
+                                        alt={card.title}
+                                        className="h-25 w-35 md:h-45 md:w-50 rounded-lg object-cover object-top"
+                                    />
+                                </div>
                             </motion.div>
                         </div>
                     </motion.div>

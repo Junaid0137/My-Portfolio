@@ -37,15 +37,15 @@ function Header() {
                 transition={{
                     duration: 1.5,
                 }}
-                className='flex items-center pr-5'>
-                <Link href={'#contact'} className='-mt-1'>
+                className='flex items-center pr-5 md:mt-2'>
+                <Link href={'#contact'} className='-mt-1 md:-mt-2 -mr-6 md:-mr-0'>
                     <SocialIcon
                         className='cursor-pointer mb-5 md:mb-0'
                         network='email'
                         bgColor='transparent'
                         fgColor='gray'
                     />
-                    <p className='uppercase hidden md:inline-flex text-gray-600'>Get in touch</p>
+                    <p className='uppercase hidden md:inline-flex text-gray-600 items-center'>Get in touch</p>
                 </Link>
             </motion.div>
         </header>
